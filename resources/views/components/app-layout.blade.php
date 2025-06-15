@@ -27,14 +27,14 @@
                     </div>
                     <ul tabindex="0"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a>Homepage</a></li>
+                        <li><a href="{{ route('all.user') }}">usuarios</a></li>
                         <li><a>Portfolio</a></li>
                         <li><a>About</a></li>
                     </ul>
                 </div>
             </div>
             <div class="navbar-center">
-                <a class="btn btn-ghost text-xl">Finca suspiro</a>
+                <a class="btn btn-ghost text-xl" href="{{ route('admin.dashboard') }}">Finca suspiro</a>
             </div>
             <div class="navbar-end">                
             </div>
